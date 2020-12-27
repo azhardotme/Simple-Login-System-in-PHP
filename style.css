@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(31, 129, 133);
+}
+
+.login-box {
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(189, 165, 165);
+  padding: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 10px 0;
+  padding: 7px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-box input[type="submit"] {
+  cursor: pointer;
+  background: rgb(62, 23, 204);
+  color: #fff;
+}
